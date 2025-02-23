@@ -14,11 +14,10 @@ number_2 = 20
 number_3 = 30
 
 # Conditional Statements
-check = not ((number_1 <= number_2) or (number_2 <= number_3))
+check = not (number_2 <= number_3)
 
 
 print(check) 
-
 
 
 
@@ -30,7 +29,6 @@ print(check)
 
 # Logical Operators
 # and, or, not
-
 
 # AND
 # False and False = False
@@ -48,6 +46,9 @@ print(check)
 # not False = True
 # not True = False
 
+age = 10
+age += 10
+
 # Assignment Operators
 # =, +=, -=, *=, /=, %=, **=, //=
 
@@ -63,6 +64,7 @@ print(check)
 # Bitwise Operators
 # &, |, ~, ^, <<, >>
 
+
 # Membership Operators
 # in, not in
 
@@ -72,4 +74,5 @@ print(check)
 # is, is not
 
 # check is age
+
 
