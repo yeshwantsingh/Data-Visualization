@@ -5,8 +5,8 @@
 -> Go through each folder to see particular code.
 
 ## Folder Structure
--> 0. Python Intro
--> 1. Numpy
--> 2. Pandas
--> 3. Matplotlib
--> 4. Seaborn
+0. __Python Intro__
+1. __Numpy__
+2. __Pandas__
+3. __Matplotlib__
+4. __Seaborn__
