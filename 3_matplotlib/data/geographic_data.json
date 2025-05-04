@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.935242, 40.730610]
+      },
+      "properties": {
+        "name": "New York City",
+        "population": 8419600,
+        "area": 789.43
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.243683, 34.052235]
+      },
+      "properties": {
+        "name": "Los Angeles",
+        "population": 3980400,
+        "area": 503.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.629799, 41.878113]
+      },
+      "properties": {
+        "name": "Chicago",
+        "population": 2716000,
+        "area": 606.1
+      }
+    }
+  ]
+}

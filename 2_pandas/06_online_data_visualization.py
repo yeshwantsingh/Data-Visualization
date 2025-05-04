@@ -2,22 +2,26 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the Palmer Penguins dataset
-penguins = pd.read_csv('https://raw.githubusercontent.com/allisonhorst/palmerpenguins/master/inst/extdata/penguins.csv')
+# penguins = pd.read_csv('https://raw.githubusercontent.com/allisonhorst/palmerpenguins/master/inst/extdata/penguins.csv')
+
+# sample_data = pd.read_csv('C:\Users\yeshwant.singh\OneDrive - Gus Global Services India Pvt. Ltd\Courses\Data Visualization\Code\2_pandas\sample_data.csv')
+
+# print(penguins.columns)
 
 # print(penguins.describe())
 
 # print(penguins.head())
 
 # # Create a histogram using Pandas plot
-penguins['bill_length_mm'].plot.hist(bins=20, edgecolor='black', color='blue')
+# penguins['bill_length_mm'].plot.hist(bins=20, edgecolor='black', color='blue')
 
-# Set plot labels and title
-plt.xlabel('Bill Length (mm)')
-plt.ylabel('Frequency')
-plt.title('Histogram of Bill Length in Palmer Penguins')
+# # # Set plot labels and title
+# plt.xlabel('Bill Length (mm)')
+# plt.ylabel('Frequency')
+# plt.title('Histogram of Bill Length in Palmer Penguins')
 
-# Show the plot
-plt.show()
+# # Show the plot
+# plt.show()
 
 # print(penguins.head())
 # print(penguins.filter(['island','bill_length_mm'])) # selecting columns
@@ -36,15 +40,15 @@ plt.show()
 # plt.show() # show the plot
 
 
-# students_attendance = pd.read_excel('pandas/attendance.xlsx')
+students_attendance = pd.read_excel('2_pandas/attendance.xlsx')
 
-# print(students_attendance.describe())
-# print(students_attendance.head())
+print(students_attendance.describe())
+print(students_attendance.head())
 
 
-# students_attendance['Percentage'].plot.hist(bins=20, edgecolor='black', color='blue')
+students_attendance['Percentage'].plot.hist(bins=20, edgecolor='black', color='blue')
 
-# plt.xlabel('Percentage')
-# plt.ylabel('Frequency')
-# plt.title('Histogram of Attendance Percentage')
-# plt.show()
+plt.xlabel('Percentage')
+plt.ylabel('Frequency')
+plt.title('Histogram of Attendance Percentage')
+plt.show()
